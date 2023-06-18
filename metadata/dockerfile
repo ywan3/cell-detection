@@ -1,0 +1,5 @@
+FROM tensorflow/tensorflow:2.11.0rc2-gpu-jupyter
+
+USER root
+
+RUN pip install stardist
